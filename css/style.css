@@ -1,0 +1,38 @@
+@font-face{
+	font-family: altair;
+	src: url("../fonts/Altair/Altair-Bold Trial.ttf");
+}
+
+body{
+	font-family: altair;
+}
+
+/*##################### NAVBAR ############################*/
+
+nav{
+	background-color: #ef562d;
+}
+
+.listeNav{
+	margin-left: 15%;
+}
+
+body{
+	background-color: #6969a3;
+}
+
+/*########################################################*/
+
+
+
+
+
+
+
+
+
+
+/*Couleurs :
+	#ef562d <- Nav
+	#6969a3 <- fond
+*/
