@@ -1,10 +1,10 @@
 @font-face{
-	font-family: altair;
-	src: url("../fonts/Altair/Altair-Bold Trial.ttf");
+	font-family: amaranth;
+	src: url("../fonts/amaranth/amaranth-Regular.otf");
 }
 
 body{
-	font-family: altair;
+	font-family: amaranth;
 }
 
 /*##################### NAVBAR ############################*/
@@ -23,6 +23,22 @@ body{
 
 /*########################################################*/
 
+
+/*#################### FOOTER ############################*/
+
+#colF {
+  background-color: #ef562d;
+  position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	padding-top: 30px;
+}
+#copyright{
+	background-color: #ef562d;
+}
+
+/*########################################################*/
 
 
 
