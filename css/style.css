@@ -10,7 +10,7 @@ body{
 /*##################### NAVBAR ############################*/
 
 nav{
-	background-color: #ef562d;
+	background-color: #313F77;
 }
 
 .listeNav{
@@ -18,7 +18,7 @@ nav{
 }
 
 body{
-	background-color: #6969a3;
+	background-color: #559DE0;
 }
 
 /*########################################################*/
@@ -26,7 +26,11 @@ body{
 
 #homePage{
 	height: 1000px;
-	color: #262424;
+	color: white;
+}
+
+ #homePage {
+
 }
 
 #lesParcours{
@@ -69,18 +73,21 @@ body{
 	text-decoration: underline;
 	margin-bottom: 45px;
 	margin-top: 45px;
+	color:  #01294F;
 }
 
 .nParcourGHome{
 	margin-top: -30px;
 	text-decoration: underline;
 	float: left;
+	color:  #313F77;
 }
 
 .nParcourDHome{
 	margin-top: -30px;
 	text-decoration: underline;
 	float: right;
+	color:  #313F77;
 }
 
 
@@ -145,8 +152,8 @@ body{
 
 .imgAttTour {
     padding: 5px;
-    width: 180px;
-    height: 150px;
+    width: 180px !important; 
+    height: 150px !important;
 }
 
 
@@ -231,7 +238,7 @@ padding-left: 0px;
 /*#################### FOOTER ############################*/
 
 #colF {
-  background-color: #ef562d;
+  background-color: #313F77;
   position: relative;
 	bottom: 0;
 	width: 100%;
@@ -239,7 +246,7 @@ padding-left: 0px;
 	padding-top: 30px;
 }
 #copyright{
-	background-color: #ef562d;
+	background-color: #313F77;
 }
 
 /*########################################################*/
