@@ -1,5 +1,3 @@
-"use strict";
-
 //_______________NAVBAR_____________
 
 $(".dropdown-button").dropdown();

@@ -14,7 +14,7 @@ nav{
 }
 
 .listeNav{
-	margin-left: 15%;
+	margin-left: 14%;
 }
 
 body{
@@ -22,13 +22,186 @@ body{
 }
 
 /*########################################################*/
+/*###################### HOME ############################*/
+
+#homePage{
+	height: 1000px;
+	color: #262424;
+}
+
+#lesParcours{
+	border: 1px solid white;
+}
+
+#lesCommerces{
+	border: 1px solid white;
+}
+
+.photoGaucheHome{
+	height: 250px;
+	width: 250px;
+
+	float: left;
+	background-size: 100%;
+	background-position: center;
+}
+
+.photoDroiteHome{
+	height: 250px;
+	width: 250px;
+
+	float: right;
+	background-size: 100%;
+	background-position: center;
+}
+
+.texteDroiteHome{
+	float: right;
+	margin-top: 30px;
+}
+
+.texteGaucheHome{
+	float: left;
+	margin-top: 30px;
+}
+
+.titreSection{
+	text-decoration: underline;
+	margin-bottom: 45px;
+	margin-top: 45px;
+}
+
+.nParcourGHome{
+	margin-top: -30px;
+	text-decoration: underline;
+	float: left;
+}
+
+.nParcourDHome{
+	margin-top: -30px;
+	text-decoration: underline;
+	float: right;
+}
 
 
+#parcour1Home{
+	background-image: url(../img/imageParcour1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#parcour2Home{
+	background-image: url(../img/imageParcour2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#parcour3Home{
+	background-image: url(../img/imageParcour3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#redBarHome{
+	background-image: url(../img/redBar.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#guibsHome{
+	background-image: url(../img/guibs.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#citronHome{
+	background-image: url(../img/citron.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+/*########################################################*/
+/*###################### PARCOURS ########################*/
+
+#photoParcour1{
+	height: 300px;
+	width: 300px;
+}
+
+
+#parcours{
+	margin-top: 7.6%;
+	margin-bottom: 7.6%;
+}
+
+
+/*#################### ATTRACTIONS TOURISTIQUE ############################*/
+
+.collection {
+    margin-top: 10px;
+    width: 20%;
+}
+
+.imgAttTour {
+    padding: 5px;
+    width: 180px;
+    height: 150px;
+}
+
+
+/*#################### BARS ############################*/
+
+#Monu, #Touri {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+
+/*#####################################################*/
+
+/*#####################################################*/
+/*################# NOUS ########################*/
+
+#mapBSMNous{
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+#logoBSMNous{
+	max-width: 100px;
+	max-height: 100px;
+
+}
+
+.photosMembres{
+	height: 110px;
+	width: 110px;
+}
+
+#ctnImagesMembres img{
+	margin-left: 1%;
+	margin-bottom: 60px;
+}
+
+#presNous{
+	font-size: 23px;
+}
+
+#titreEquipeNous{
+	text-decoration: underline;
+	margin-top: 40px;
+}
+
+
+/*########################################################*/
 /*#################### FOOTER ############################*/
 
 #colF {
   background-color: #ef562d;
-  position: absolute;
+  position: relative;
 	bottom: 0;
 	width: 100%;
 	height: 100px;
@@ -40,7 +213,62 @@ body{
 
 /*########################################################*/
 
+/*######################## RESTAURANTS ########################*/
 
+#pageresto{
+	/*padding: 3%;*/
+}
+
+
+.titreresto{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: white;
+}
+
+@media (max-width: 750px){
+	.titreresto{
+		font-size: 45px;
+	}
+}
+
+.divider{
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+
+
+.pageresto{
+	margin-bottom: 5%;
+	padding-left: 6%;
+}
+
+@media (max-width: 992px) {
+	.pageresto {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+.cardresto{
+	height: 60%;
+	width: 120%;
+}
+
+.pointresto:hover{
+	cursor: pointer;
+}
+
+.cardimg{
+	margin-top: 5%;
+	height: 80%;
+	width: 100%;
+}
+
+.pagiresto{
+	margin-top: 5%;
+	text-align: center;
+}
 
 
 
@@ -52,3 +280,27 @@ body{
 	#ef562d <- Nav
 	#6969a3 <- fond
 */
+
+
+/*######################## NOTATION #########################*/
+
+.ratedGauche a {
+   float: left;
+   color: yellow;
+   text-decoration: none;
+   font-size: 3em;
+}
+
+.ratedDroite a {
+   float: right;
+   color: yellow;
+   text-decoration: none;
+   font-size: 3em;
+}
+
+.rated a {
+   float: right;
+   color: yellow;
+   text-decoration: none;
+   font-size: 3em;
+}

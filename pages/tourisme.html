@@ -1,97 +1,331 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="../css/style.css">
+<html>
 
-      <script src="https://use.fontawesome.com/994b9e380a.js"></script>
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <script src="https://use.fontawesome.com/994b9e380a.js"></script>
 
-    <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-<!-- _________________________________ NAVBAR ______________________________ -->
+<body>
 
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="parcours.html">Parcours</a></li>
-            <li><a href="tourisme.html">Attractions touristique</a></li>
-            <li><a href="magasins.html">Magasins</a></li>
-            <li><a href="bars.html">Bars</a></li>
-            <li><a href="restaurants.html">Restaurants</a></li>
-            <li><a href="nous.html">Nous</a></li>
-        </ul>
+    <!-- _________________________________ NAVBAR ______________________________ -->
 
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a href="magasins.html">Magasins</a></li>
-            <li><a href="bars.html">Bars</a></li>
-            <li><a href="restaurants.html">Restaurants</a></li>
-        </ul>
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="tourisme.html">Attractions touristique</a></li>
+        <li><a href="magasins.html">Magasins</a></li>
+        <li><a href="bars.html">Bars</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="nous.html">Nous</a></li>
+    </ul>
 
-       <nav>
-            <div class="nav-wrapper navbar-fixed">
-                <a href="../index.html" class="brand-logo">Logo</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="hide-on-med-and-down">
-                    <li class="listeNav"><a href="parcours.html">Parcours</a></li>
-                    <li class="listeNav"><a href="tourisme.html">Attractions touristique</a></li>
-                    <li class="listeNav"><a class="dropdown-button" href="#!" data-activates="dropdown1">Commerces<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li class="listeNav"><a href="nous.html">Nous</a></li>
-                </ul>
-                
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="magasins.html">Magasins</a></li>
+        <li><a href="bars.html">Bars</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+    </ul>
+
+    <nav>
+        <div class="nav-wrapper navbar-fixed">
+            <a href="../index.html" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li class="listeNav"><a href="parcours.html">Parcours</a></li>
+                <li class="listeNav"><a href="tourisme.html">Attractions touristique</a></li>
+                <li class="listeNav"><a class="dropdown-button" href="#!" data-activates="dropdown1">Commerces<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li class="listeNav"><a href="nous.html">Nous</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- ________________________________________________________________________ -->
+    <div class="container">
+        <div class="row">
+            <div class="col l12 s12">
+                <div class="collection">
+                    <a href="#Monu" class="collection-item">Monuments Historique</a>
+                    <a href="#Touri" class="collection-item">Tourisme</a>
+                </div>
             </div>
-        </nav>
+        </div>
 
-<!-- ________________________________________________________________________ -->
+        <h1 id="Monu" class="center">Monuments Historique</h1>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/beffrois.jpg" alt="Beffroi">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Le Beffroi</h5>
+                        <p>Le beffroi de Boulogne, ancien donjon roman, appartient au patrimoine de l’Humanité.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/basilique-notre-dame.jpg" alt="Basilique Notre-Dame">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">La Basilique Notre-Dame</h5>
+                        <p>Dominant la ville de sa haute coupole, la basilique Notre-Dame a été construite au 19e siècle.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/chateau-musee.jpg" alt="Musée">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Musée</h5>
+                        <p>Le Musée de Boulogne-sur-Mer est situé dans la ville fortifiée. Il est installé dans le château comtal de Boulogne sur Mer.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/statue-mariette.jpg" alt="Mariette Bay">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Statue Mariette Bay</h5>
+                        <p>Monument dédié à François Auguste Ferdinand Mariette égyptologue français en 1882, réalisé par Henri-Alfred Jacquemart.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/morts.jpg" alt="Monument aux morts">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Monument aux morts</h5>
+                        <p>Monument adossé aux remparts de la vieille ville.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/eglise-nicolas.jpg" alt="Eglise St Nicolas">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Église Saint Nicolas</h5>
+                        <p>C'est en 1208 que cette église est citée pour la première fois. Elle fut dédiée au saint patron du monde de la mer : Saint-Nicolas.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/casaMartin.jpg" alt="Casa San Martin">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Casa San Martín</h5>
+                        <p>Demeure construite en 1848, occupée jusqu’à sa mort en 1850 par le général argentin José de San Martín.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/porteDegre.jpg" alt="Porte des degrès">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Porte des Degrés</h5>
+                        <p>Destinée à la circulation des piétons depuis les origines, cette porte tirerait son nom des degrés de l'escalier qui permettait de la franchir. Elle est aujourd'hui la mieux préservée des fortifications boulonnaises.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/crypte.jpg" alt="Crypte">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">La Crypte</h5>
+                        <p>Véritable dédale de salles souterraines, le lieu impressionne par ses dimensions considérables - 100 mètres de longueur et 1400 m2, qui en font l’une des plus grandes cryptes de France.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/the-beuriere-house.jpg" alt="The Beuriere House">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Maison de la Beurière</h5>
+                        <p>Une authentique maison de pêcheur construite en 1870 permet de découvrir l'habitat d'une famille de marins vers 1900.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/statueSan.jpg" alt="Statue San Martin">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Statue équestre du général San Martín</h5>
+                        <p>Elle représente le Libertador portant un drapeau sur un cheval au trot, avec à ses pieds “La République” lui offrant une couronne de laurier.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 id="Touri" class="center">Tourisme</h1>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/jardin-ephemere.jpg" alt="Beffrois">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Le Jardin Éphémère</h5>
+                        <p>Des Jardins thématiques sont proposés chaque année devant la mairie.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 1</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/nausicaa.jpg" alt="Beffrois">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Nausicaa</h5>
+                        <p>Centre national de la mer est un centre de découverte de l'environnement marin.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6 m6">
+            <div class="card cardToursime horizontal">
+                <div class="card-image">
+                    <img class="imgAttTour" src="../img/jardin-nausicaa.jpg" alt="Beffrois">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5 class="header">Le Jardin de Nausicaa</h5>
+                        <p>Cet espace vert de 17 000 m2 entouré de grands arbres est à la fois un espace de détente avec mini-golf et une aire de jeux pour enfants mais aussi un endroit idéal pour faire des activités sportives.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="parcours.html">Parcours 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 
 
+    <!-- _____________________________ FOOTER __________________________ -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- _____________________________ FOOTER __________________________ -->
-
-        <footer id="colF" class="page-footer">
-          <div class="container">
+    <footer id="colF" class="page-footer">
+        <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">HACKATHON</h5>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                  <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                  <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">HACKATHON</h5>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div id="copyright" class="footer-copyright center">
+        </div>
+        <div id="copyright" class="footer-copyright center">
             <div class="container">
-            © 2016 Copyright Text
+                © 2016 Copyright Text
             </div>
-          </div>
-        </footer>
+        </div>
+    </footer>
 
-<!-- _______________________________________________________________ -->
-
-
+    <!-- _______________________________________________________________ -->
 
 
 
@@ -102,30 +336,9 @@
 
 
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="../js/materialize.min.js"></script>
-      <script type="text/javascript" src="../js/script.js"></script>
-    </body>
-  </html>
+</html>

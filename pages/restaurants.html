@@ -1,97 +1,270 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="../css/style.css">
+<html>
 
-      <script src="https://use.fontawesome.com/994b9e380a.js"></script>
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <script src="https://use.fontawesome.com/994b9e380a.js"></script>
 
-    <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-<!-- _________________________________ NAVBAR ______________________________ -->
+<body>
 
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="parcours.html">Parcours</a></li>
-            <li><a href="tourisme.html">Attractions touristique</a></li>
-            <li><a href="magasins.html">Magasins</a></li>
-            <li><a href="bars.html">Bars</a></li>
-            <li><a href="restaurants.html">Restaurants</a></li>
-            <li><a href="nous.html">Nous</a></li>
-        </ul>
+    <!-- _________________________________ NAVBAR ______________________________ -->
 
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a href="magasins.html">Magasins</a></li>
-            <li><a href="bars.html">Bars</a></li>
-            <li><a href="restaurants.html">Restaurants</a></li>
-        </ul>
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="tourisme.html">Attractions touristique</a></li>
+        <li><a href="magasins.html">Magasins</a></li>
+        <li><a href="bars.html">Bars</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="nous.html">Nous</a></li>
+    </ul>
 
-       <nav>
-            <div class="nav-wrapper navbar-fixed">
-                <a href="../index.html" class="brand-logo">Logo</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="hide-on-med-and-down">
-                    <li class="listeNav"><a href="parcours.html">Parcours</a></li>
-                    <li class="listeNav"><a href="tourisme.html">Attractions touristique</a></li>
-                    <li class="listeNav"><a class="dropdown-button" href="#!" data-activates="dropdown1">Commerces<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li class="listeNav"><a href="nous.html">Nous</a></li>
-                </ul>
-                
-            </div>
-        </nav>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="magasins.html">Magasins</a></li>
+        <li><a href="bars.html">Bars</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+    </ul>
 
-<!-- ________________________________________________________________________ -->
+    <nav>
+        <div class="nav-wrapper navbar-fixed">
+            <a href="../index.html" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li class="listeNav"><a href="parcours.html">Parcours</a></li>
+                <li class="listeNav"><a href="tourisme.html">Attractions touristique</a></li>
+                <li class="listeNav"><a class="dropdown-button" href="#!" data-activates="dropdown1">Commerces<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li class="listeNav"><a href="nous.html">Nous</a></li>
+            </ul>
 
+        </div>
+    </nav>
 
-
+    <!-- ________________________________________________________________________ -->
 
 
-
-
+    <div class="container" id="pagersto">
+        <div class="row pageresto">
 
 
 
+            <h1 class="titreresto col m11 s12">Les Restaurants</h1>
 
-
-
-
-
-
-
-
-
-
-
-<!-- _____________________________ FOOTER __________________________ -->
-
-        <footer id="colF" class="page-footer">
-          <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">HACKATHON</h5>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                  <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                  <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
+
+                <div class="card col l3 m3 s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg" cardimg>
+                        <img class="activator" height="215px" src="../img/restocantine.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4">La Cantine</span>
+                        <p class="inforesto"><a href="#">parcour : 1</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">La Cantine<i class="material-icons right">close</i></span>
+                        <p>En plein coeur de la Vieille Ville, LA CANTINE vous propose une "restauration sur le pouce" à base de produits du terroir, sur place ou à emporter.
+Que ce soit pour boire un verre ou casser la croûte, au petit-déj', à l'apéro, pour déjeuner ou au goûter , régalez vous avec nos sandwichs & tartines, salades & soupes, planches de fromages & charcuterie, tartes & glaces, smoothies & softs, bières & vins, apéritifs...
+Tout est frais et fait maison ! Des recettes originales et généreuses ! Et des prix de 2€ à 7€ !</p>
+                    </div>
+                </div>
+
+                <div class="card col l3 offset-l1 col m3 offset-m1 col s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg">
+                        <img class="activator" height="215px" src="../img/citron.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4">Le Citron</span>
+                        <p class="inforesto"><a href="#">Parcour : 1</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Citron Basilic<i class="material-icons right">close</i></span>
+                        <p>Entre la basse et la haute ville dans un cadre cosy et contemporain, Citron Basilic vous propose une carte aux accents du sud entre 11 et 20 €.
+Restaurant: Ouvert du mardi au samedi de 12h à 14h30. Les vendredi et samedi soirs de 19h à 21h.
+Traiteur: de 9h à 19h.</p>
+                    </div>
+                </div>
+
+
+                <div class="card col l3 offset-l1 col m3 offset-m1 col s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg">
+                        <img class="activator" height="215px" src="../img/coteopale.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4">Cote d'Opale</span>
+                        <p class="inforesto"><a href="#">Parcour : 3</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"> Le Cote d'Opale<i class="material-icons right">close</i></span>
+                        <p>Bar , snack, vente à emporter, menu enfant dans un cadre familial avec vue sur le port et les étals de poissons.
+Du lundi au dimanche de 8h à 20h. Jusqu'à 22h l'été.</p>
+                    </div>
+                </div>
+
             </div>
-          </div>
-          <div id="copyright" class="footer-copyright center">
+
+
+            <div class="divider col s11"></div>
+
+            <div class="row">
+
+                <div class="card col l3 m3 s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg">
+                        <img class="activator" height="215px" src="../img/delice.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4 pointresto">Au Delice</span>
+                        <p class="inforesto"><a href="#">Parcour : 1</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Au Délice Du Palais<i class="material-icons right">close</i></span>
+                        <p>Céline et Christophe vous accueillent du mardi au samedi de 7h à 19h et le dimanche matin de 7h à 13h.
+Découvrez nos Paris-Brest revisités jusque fin mai 3 recettes différentes.
+Nos spécialités tarte papin, calais, boulonnais.
+Sandwich à toute heure, quiche, pizza, friand pour vos pauses repas !!
+Au petit-déjeuner ou au gouter n'hésitez pas a venir profiter de notre terrasse extérieure.
+Pour vos événements, n'hésitez pas à nous solliciter : baptêmes, mariages, anniversaires (impression de photo sur gâteau possible).
+A très bientôt pour les gourmands.</p>
+                    </div>
+                </div>
+
+                <div class="card col l3 offset-l1 col m3 offset-m1 col s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg">
+                        <img class="activator" height="215px" src="../img/etoile.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4">Etoile/mers</span>
+                        <p class="inforesto"><a href="#">Parcour : 1</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">L'etoile des mers<i class="material-icons right">close</i></span>
+                        <p>Découvrez la cuisine médiévale et ses saveurs sucrées et acidulées dans une large palette de parfums d'épices. Mais aussi la cuisine des terroirs.</p>
+                    </div>
+                </div>
+
+
+                <div class="card col l3 offset-l1 col m3 offset-m1 col s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg">
+                        <img class="activator" height="215px" src="../img/fleur.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4 pointresto">Fleur de Sel</span>
+                        <p class="inforesto"><a href="#">Parcour : 3</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Fleur de sel<i class="material-icons right">close</i></span>
+                        <p>Salle au premier étage récemment rénovée. Décor moderne et agréable. Accueil sympathique. Service compétent et avec gentillesse. Etablissement clean. Nous ne regrettons pas le choix d'une sole de 400 g malgré son prix de 23€. Possibilité de plusieurs desserts faits maison, dont une mousse au chocolat particulièrement appréciée.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="divider col s11"></div>
+
+            <div class="row">
+
+                <div class="card col l3 m3 s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg">
+                        <img class="activator" height="215px" src="../img/goelette.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4">La goelette</span>
+                        <p class="inforesto"><a href="#">Parcour : 3</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">La goelette<i class="material-icons right">close</i></span>
+                        <p>Notre restaurant vous invite à découvrir une cuisine traditionnelle à base de poisson, en face du Centre National de la Mer qui est un haut-lieu du tourisme.
+Venez déguster nos plats du jour.
+Savourez nos spécialités préparées avec des poissons frais, ainsi que nos salades variées.
+Des assiettes toujours bien décorées et des menus du jour toujours inventifs vous attendent.
+Aux beaux jours, prenez place en terrasse et profitez d'un déjeuner ensoleillé à partager en famille ou entre amis.</p>
+                    </div>
+                </div>
+
+                <div class="card col l3 offset-l1 col m3 offset-m1 col s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg">
+                        <img class="activator" height="215px" src="../img/grandrue.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4 pointresto">Grand Rue</span>
+                        <p class="inforesto"><a href="#">Parcour : 1</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Le Grand Rue<i class="material-icons right">close</i></span>
+                        <p>Le concept anniversaire Le Grand Rue
+La semaine de l'anniversaire de n'importe quel personne adulte ou enfant le menu lui est offert entrée plat dessert gratuit .Il suffit juste de réservé pour le dîner au 03.21.92.05.54 ou sur le site www.legrandrue.fr et d'être au minimum accompagné d'un adulte ou 2 enfants elle est pas belle la vie</p>
+                    </div>
+                </div>
+
+
+                <div class="card col l3 offset-l1 col m3 offset-m1 col s12 cardresto">
+                    <div class="card-image waves-effect waves-block waves-light cardimg">
+                        <img class="activator" height="215px" src="../img/grillardine.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title grey-text text-darken-4">Grillardine</span>
+                        <p class="inforesto"><a href="#">Parcour : 1</a><i class="material-icons activator right pointresto">more_vert</i></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Le Grillardine<i class="material-icons right">close</i></span>
+                        <p>Bienvenue sur la page de La Grillardine, restaurant Grill situé au coeur de la vieille ville de Boulogne sur mer, au 30 Rue de Lille.
+Nous vous accueillons du Mardi au Samedi, midi et soir.
+Pensez à réserver votre table, les places sont limitées ( 12 places au rez de chaussée, et 12 à l'étage ).
+Vous pouvez nous contacter par téléphone ( au 03.21.80.32.94, ou au 06.98.50.44.14 ), par mail, à l'adresse suivante : colau.davy@yahoo.fr, ou par le biais de cette page, en message privé.
+A bientôt !</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+<ul class="pagination pagiresto">
+<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+<li class="active"><a href="#!">1</a></li>
+<li class="waves-effect"><a href="#!">2</a></li>
+<li class="waves-effect"><a href="#!">3</a></li>
+<li class="waves-effect"><a href="#!">4</a></li>
+<li class="waves-effect"><a href="#!">5</a></li>
+<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+</ul>
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- _____________________________ FOOTER __________________________ -->
+
+    <footer id="colF" class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">HACKATHON</h5>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="copyright" class="footer-copyright center">
             <div class="container">
-            © 2016 Copyright Text
+                © 2016 Copyright Text
             </div>
-          </div>
-        </footer>
+        </div>
+    </footer>
 
-<!-- _______________________________________________________________ -->
-
-
+    <!-- _______________________________________________________________ -->
 
 
 
@@ -102,30 +275,9 @@
 
 
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="../js/materialize.min.js"></script>
-      <script type="text/javascript" src="../js/script.js"></script>
-    </body>
-  </html>
+</html>
