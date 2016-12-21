@@ -21,6 +21,12 @@ body{
 	background-color: #559DE0;
 }
 
+#logoNavBar{
+	margin-top: 2.5%;
+	width: 22%;
+	height: 22%;
+}
+
 /*########################################################*/
 /*###################### HOME ############################*/
 
@@ -29,17 +35,13 @@ body{
 	color: white;
 }
 
- #homePage {
-
-}
-
-#lesParcours{
+/*#lesParcours{
 	border: 1px solid white;
 }
 
 #lesCommerces{
 	border: 1px solid white;
-}
+}*/
 
 .photoGaucheHome{
 	height: 250px;
@@ -127,6 +129,19 @@ body{
 	background-repeat: no-repeat;
 }
 
+#imageHomePage{
+	max-height: 600px;
+	max-width: 600px;
+}
+
+#imageHomePage2{
+	max-height: 400px;
+	max-width: 400px;
+}
+
+.texteIntroHome{
+	color: white;
+}
 
 /*########################################################*/
 /*###################### PARCOURS ########################*/
@@ -211,7 +226,6 @@ padding-left: 0px;
 #logoBSMNous{
 	max-width: 100px;
 	max-height: 100px;
-
 }
 
 .photosMembres{
