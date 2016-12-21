@@ -1,97 +1,179 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="../css/style.css">
+<html>
 
-      <script src="https://use.fontawesome.com/994b9e380a.js"></script>
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <script src="https://use.fontawesome.com/994b9e380a.js"></script>
 
-    <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-<!-- _________________________________ NAVBAR ______________________________ -->
+<body>
 
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="parcours.html">Parcours</a></li>
-            <li><a href="tourisme.html">Attractions touristique</a></li>
-            <li><a href="magasins.html">Magasins</a></li>
-            <li><a href="bars.html">Bars</a></li>
-            <li><a href="restaurants.html">Restaurants</a></li>
-            <li><a href="nous.html">Nous</a></li>
-        </ul>
+    <!-- _________________________________ NAVBAR ______________________________ -->
 
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a href="magasins.html">Magasins</a></li>
-            <li><a href="bars.html">Bars</a></li>
-            <li><a href="restaurants.html">Restaurants</a></li>
-        </ul>
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="tourisme.html">Attractions touristique</a></li>
+        <li><a href="magasins.html">Magasins</a></li>
+        <li><a href="bars.html">Bars</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="nous.html">Nous</a></li>
+    </ul>
 
-       <nav>
-            <div class="nav-wrapper navbar-fixed">
-                <a href="../index.html" class="brand-logo">Logo</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="hide-on-med-and-down">
-                    <li class="listeNav"><a href="parcours.html">Parcours</a></li>
-                    <li class="listeNav"><a href="tourisme.html">Attractions touristique</a></li>
-                    <li class="listeNav"><a class="dropdown-button" href="#!" data-activates="dropdown1">Commerces<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li class="listeNav"><a href="nous.html">Nous</a></li>
-                </ul>
-                
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="magasins.html">Magasins</a></li>
+        <li><a href="bars.html">Bars</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+    </ul>
+
+    <nav>
+        <div class="nav-wrapper navbar-fixed">
+            <a href="../index.html" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li class="listeNav"><a href="parcours.html">Parcours</a></li>
+                <li class="listeNav"><a href="tourisme.html">Attractions touristique</a></li>
+                <li class="listeNav"><a class="dropdown-button" href="#!" data-activates="dropdown1">Commerces<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li class="listeNav"><a href="nous.html">Nous</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- ________________________________________________________________________ -->
+
+
+
+
+    <div id="BarPage" class="container">
+
+        <div class="row">
+            <h1 id="titreBars" class="col m11 s12">Bars</h1>
+            <div class="card cardBar col m3 s12">
+                <div class="card-image card-imageBar waves-effect waves-block waves-light"> <img height="215" class="activator" src="../img/annonciades.jpg" alt="Les annonciades"> </div>
+                <div class="card-content"> <span class="card-title grey-text text-darken-4">Annonciades</span>
+                    <p class="infobar"><a href="#">Parcours : 1/2</a><i class="material-icons activator right pointbar">more_vert</i></p>
+                </div>
+                <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Les Annonciades<i class="material-icons right">close</i></span>
+                    <p>Bien située au cœur de la ville fortifiée depuis 1991, l'enseigne Les Annonciades est la brasserie-bar-pizzeria toute trouvée pour se rafraichir, se détendre et prendre vos repas du midi ou du soir.</p>
+                </div>
             </div>
-        </nav>
 
-<!-- ________________________________________________________________________ -->
+            <div class="card cardBar col m3 s12 offset-m1">
+                <div class="card-image card-imageBar waves-effect waves-block waves-light"> <img height="215" class="activator" src="../img/beffroiBar.jpg" alt="Beffroi Bar"> </div>
+                <div class="card-content"> <span class="card-title grey-text text-darken-4">Le Beffroi</span>
+                    <p class="infobar"><a href="#">Parcours : 1/2</a><i class="material-icons activator right pointbar">more_vert</i></p>
+                </div>
+                <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Le Beffroi<i class="material-icons right">close</i></span>
+                    <p>Le Beffroi, a ouvert ses portes, juste en face de l’ancien donjon de Boulogne-sur-Mer, datant du XII me siècle. Depuis lors, il fait salle comble tous les midis, tant les boulonnais sont friands de sa cuisine généreuse, de son accueil
+                        sincère et de ses tarifs très attractifs.</p>
+                </div>
+            </div>
+
+            <div class="card cardBar col m3 s12 offset-m1">
+                <div class="card-image card-imageBar waves-effect waves-block waves-light"> <img height="215" class="activator" src="../img/brasserieEurvin.jpg" alt="Brasserie Eurvin"> </div>
+                <div class="card-content"> <span class="card-title grey-text text-darken-4">Eurvin</span>
+                    <p class="infobar"><a href="#">Parcours : 2</a><i class="material-icons activator right pointbar">more_vert</i></p>
+                </div>
+                <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Brasserie Eurvin<i class="material-icons right">close</i></span>
+                    <p>Info à compléter.</p>
+                </div>
+            </div>
+        </div>
 
 
+        <div class="row">
+            <div class="card cardBar col m3 s12">
+                <div class="card-image card-imageBar waves-effect waves-block waves-light"> <img height="215" class="activator" src="../img/guibs.jpg" alt="Le Guib's Bar"> </div>
+                <div class="card-content"> <span class="card-title grey-text text-darken-4">Guib's Bar</span>
+                    <p class="infobar"><a href="#">Parcours : 1/3</a><i class="material-icons activator right pointbar">more_vert</i></p>
+                </div>
+                <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Le Guib's Bar<i class="material-icons right">close</i></span>
+                    <p>C’est depuis l’année 2010, dans le centre-ville historique, sur la très pittoresque place principale de Boulogne-sur-Mer, dès la fin de l’après midi, que vous poussez les portes du festif Guib’s Bar, pour vous détendre en After Work
+                        ou vous échauffer en Before.</p>
+                </div>
+            </div>
+
+            <div class="card cardBar col m3 s12 offset-m1">
+                <div class="card-image card-imageBar waves-effect waves-block waves-light"> <img height="215" class="activator" src="../img/cafeLeffe.png" alt="Beffroi Bar"> </div>
+                <div class="card-content"> <span class="card-title grey-text text-darken-4">Café Leffe</span>
+                    <p class="infobar"><a href="#">Parcours : 1/2</a><i class="material-icons activator right pointbar">more_vert</i></p>
+                </div>
+                <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Le Café Leffe<i class="material-icons right">close</i></span>
+                    <p>Bénéficiant d'un emplacement exceptionnel, Café Leffe Boulogne-sur-mer est un lieu convivial où l'on peut s'initier à la dégustation des bières belges les plus renommées et notamment celles de la gamme Abbaye de Leffe, tout en profitant
+                        d'une restauration de qualité tout au long de la journée à l'image des grandes brasseries.</p>
+                </div>
+            </div>
+
+            <div class="card cardBar col m3 s12 offset-m1">
+                <div class="card-image card-imageBar waves-effect waves-block waves-light"> <img height="215" class="activator" src="../img/entrepot.jpg" alt="L'entrepot"> </div>
+                <div class="card-content"> <span class="card-title grey-text text-darken-4">L'entrepot</span>
+                    <p class="infobar"><a href="#">Parcours : 2</a><i class="material-icons activator right pointbar">more_vert</i></p>
+                </div>
+                <div class="card-reveal"> <span class="card-title grey-text text-darken-4">L'entrepot<i class="material-icons right">close</i></span>
+                    <p>Rendez-vous en plein centre ville de Boulogne sur Mer, sur la place du Marché, autour d'un pot entre ami en terrasse ! L'Entrepot vous accueil tous les jours pour vos déjeuners et diners entre amis, collègues, famille, ... Plat du
+                        jour et brasserie à la carte..</p>
+                </div>
+            </div>
+        </div>
 
 
+        <div class="row">
+            <div class="card cardBar col m3 s12 offset-m1">
+                <div class="card-image card-imageBar waves-effect waves-block waves-light"> <img height="215" class="activator" src="../img/plaisance.jpg" alt="Le Plaisance"> </div>
+                <div class="card-content"> <span class="card-title grey-text text-darken-4">Le Plaisance</span>
+                    <p class="infobar"><a href="#">Parcours : 1</a><i class="material-icons activator right pointbar">more_vert</i></p>
+                </div>
+                <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Le Plaisance<i class="material-icons right">close</i></span>
+                    <p>Vous avez envie de déguster un bon repas à un tarif pas cher, venez vous restaurer au Café Le Plaisance. Installé au centre-ville, près de la place Dalton et l'église Saint-Nicolas, c’est une bonne alternative pour votre pause déjeuner
+                        ou pour vous ressourcer avec une bonne boisson fraîche.</p>
+                </div>
+            </div>
+
+            <div class="card cardBar col m3 s12 offset-m3">
+                <div class="card-image card-imageBar waves-effect waves-block waves-light"> <img height="215" class="activator" src="../img/redbar.jpg" alt="Le Red Bar"> </div>
+                <div class="card-content"> <span class="card-title grey-text text-darken-4">Le Red Bar</span>
+                    <p class="infobar"><a href="#">Parcours : 1</a><i class="material-icons activator right pointbar">more_vert</i></p>
+                </div>
+                <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Le Red Bar<i class="material-icons right">close</i></span>
+                    <p>Idéalement placé à côté d’une rue animée au cœur de la ville de Boulogne-sur-Mer, le Red Bar vous invite à un moment de détente dans un cadre convivial. La porte franchie, vous entrerez dans une atmosphère authentique. </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 
+    <!-- _____________________________ FOOTER __________________________ -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- _____________________________ FOOTER __________________________ -->
-
-         <footer id="colF" class="page-footer">
-          <div class="container">
+    <footer id="colF" class="page-footer">
+        <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">HACKATHON</h5>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                  <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                  <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">HACKATHON</h5>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div id="copyright" class="footer-copyright center">
+        </div>
+        <div id="copyright" class="footer-copyright center">
             <div class="container">
-            © 2016 Copyright Text
+                © 2016 Copyright Text
             </div>
-          </div>
-        </footer>
+        </div>
+    </footer>
 
-<!-- _______________________________________________________________ -->
-
-
+    <!-- _______________________________________________________________ -->
 
 
 
@@ -102,30 +184,9 @@
 
 
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="../js/materialize.min.js"></script>
-      <script type="text/javascript" src="../js/script.js"></script>
-    </body>
-  </html>
+</html>

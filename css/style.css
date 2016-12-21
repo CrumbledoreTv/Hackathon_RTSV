@@ -158,6 +158,37 @@ body{
     color: white;
 }
 
+/*#################### BARS ############################*/
+
+#titreBars {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+#BarPage{
+  padding-left: 5%;
+}
+@media (max-width : 992px) {
+  #BarPage{
+padding-left: 0px;
+}
+}
+.cardBar {
+    height: 60%;
+    width: 30%;
+}
+.infobar {
+    text-align: center;
+}
+.pointbar:hover {
+  cursor: pointer;
+}
+.card-imageBar {
+    margin-top: 5%;
+    height: 80%;
+    width: 100%;
+}
+
 
 /*#####################################################*/
 
@@ -269,6 +300,26 @@ body{
 	margin-top: 5%;
 	text-align: center;
 }
+
+/*########################COMMERCE################################*/
+
+#commerce{
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+
+}
+
+
+.img66{
+	height: 200px;
+	width: 200px;
+}
+
+#casseCouile{
+	margin-left: 270px;
+}
+
 
 
 
