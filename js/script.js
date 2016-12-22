@@ -4,7 +4,7 @@ $(".dropdown-button").dropdown();
 $(".button-collapse").sideNav();
 
 //__________________________________
-  /////////////////////////////
+   /////////////////////////////
  /* Javascript fonctions.js */
 /////////////////////////////
 
@@ -31,7 +31,8 @@ $(document).ready(function(){
     var i; // Variable d'incrémentation
     for (i=1;i<=nbStars;i++)
     {
-      if(i<=id) $('#star_'+i).attr({src:srcIn});
+      if(i<=id) $('.star_'+i).attr({src:srcIn});
+      else if(i>id) $('.star_'+i).attr({src:srcOut});
       else if(i>id) $('#star_'+i).attr({src:srcOut});
       if(i==id)$('#note').attr({value:i}); // affectation de la note au formulaire
     }
